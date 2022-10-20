@@ -1,6 +1,6 @@
 let n=13;
-let count=2;
-for (let i=1; i<=n; j++){
+let count=0;
+for (let i=1; i<=n; i++){
     if (n%i==0){
         count++;
     }
@@ -8,6 +8,6 @@ for (let i=1; i<=n; j++){
 
 if (count==2){
     console.log("Number is prime");
-} else if {
-    console.log("Number is not prime")
+} else{
+    console.log("Number is not prime");
 }
